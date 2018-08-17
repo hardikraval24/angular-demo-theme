@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ButtonsComponent } from './buttons/buttons.component';
+/* import { ButtonsComponent } from './buttons/buttons.component';
 import { ListComponent } from './list/list.component';
 import { StepperComponent } from './stepper/stepper.component';
 import { ExpansionPanelComponent } from './expansion-panel/expansion-panel.component';
@@ -17,10 +17,10 @@ import { DatepickerComponent } from './datepicker/datepicker.component';
 import { SliderComponent } from './slider/slider.component';
 import { SlidetoggleComponent } from './slidetoggle/slidetoggle.component';
 import { ProgressbarComponent } from './progressbar/progressbar.component';
-import { MenuComponent } from './menu/menu.component';
+import { MenuComponent } from './menu/menu.component'; */
 
 
-const materialWidgetRoutes: Routes = [
+/* const materialWidgetRoutes: Routes = [
   	{ path: 'buttons', component:  ButtonsComponent , data: { animation: 'buttons' }},
     { path: 'list', component:  ListComponent , data: { animation: 'list' }},
     { path: 'stepper', component: StepperComponent ,data: { animation: 'stepper' } },
@@ -43,11 +43,11 @@ const materialWidgetRoutes: Routes = [
     { path: 'menu', component:  MenuComponent ,data: { animation: 'menu' } },
 
     { path: '', redirectTo: '/buttons', pathMatch: 'full',}
-];
+]; */
 
 @NgModule({
   imports: [
-    RouterModule.forChild(materialWidgetRoutes)
+    //RouterModule.forChild(materialWidgetRoutes)
   ],
   exports: [
     RouterModule

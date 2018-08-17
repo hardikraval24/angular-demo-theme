@@ -27,7 +27,7 @@ import { MatProgressSpinnerModule,
  } from '@angular/material';
 
 
-import { MaterialWidgetsRouterModule } from './material-widgets.router';
+// import { MaterialWidgetsRouterModule } from './material-widgets.router';
 
 import * as hljs from 'highlight.js';
 import { HighlightJsModule, HIGHLIGHT_JS } from 'angular-highlight-js';
@@ -90,7 +90,7 @@ export function highlightJsFactory(): any {
       provide: HIGHLIGHT_JS,
       useFactory: highlightJsFactory
     }),
-    MaterialWidgetsRouterModule
+    // MaterialWidgetsRouterModule
   ],
   declarations: [
     ButtonsComponent,
